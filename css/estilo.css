@@ -1,0 +1,98 @@
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+}
+
+nav a.home{
+background-color:darkcyan;
+color: white;
+padding: 10px 10px;
+border-radius: 5px;
+
+}
+
+nav a.home:hover{
+    background-color:cadetblue;
+    color: #fff;
+}
+
+.enlace{
+    font-family: Arial;
+    text-decoration: none;
+
+}
+
+iframe{
+    width: 100%;
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 445px;
+    background-color: orange;
+    overflow: hidden;
+
+}
+.titulo{
+width: 312px;
+height: 40px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-top: 10px;
+background-color:orangered;
+}
+
+.contenedor{
+    background-color: orange;
+}
+
+.precio_producto{
+    text-align: center;
+    color: white; 
+}
+.titulo_producto{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+body{
+    font-family: arial, sans-serif;
+}
+.boton{
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+    cursor: progress;
+    transition: background-color 0.3s;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+}
+.boton:hover{
+    background-color: green; 
+
+}
+.imagen_producto{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 180px;
+    height: 230px;
+    color: white;
+    background-color: black;
+}
